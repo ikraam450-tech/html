@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<body>
+ <ul>
+    
+<li>
+
+ <a href="homepage.html">homepage</a>
+ </li>
+ <li> 
+ <a href="about me.html">about me</a>
+ </li>
+ <li>
+ <a href="my project.html">my project</a>
+ </li>
+ 
+    <li>
+ <a href="contact us.html">contact us</a>
+</li>
+ 
+</ul>
+<h1>Contact Us</h1>
+
+
+
+<form action=""></form>
+
+<label for="name">Name</label>
+<input type="text" name="name" id="name">
+<br><br>
+
+<label for="email">Email</label>
+<input type="email" name="email" id="email">
+<br><br>
+
+
+<label for="gender">Gender :</label>
+<input type="radio" name="gender" id="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="female">
+<label for="female">Female</label>
+<br><br>
+<label for="skills">Select Your Skill:</label>
+
+<select id="skills" name="skills">
+  <option value="">-- Choose a Skill --</option>
+  <option value="frontend">Frontend Development</option>
+  <option value="backend">Backend Development</option>
+  <option value="mobile">Mobile App Development</option>
+  <option value="uiux">UI/UX Design</option>
+  <option value="database">Database Management</option>
+</select>
+
+
+<label for="experiance level">Experiance level</label>
+<select name="experiance" id="experiance">
+<option value="beginner">Beginner</option>
+<option value="intermediate">Intermediate</option>
+<option value="expert">Expert</option>   
+</select><br><br>
+
+<label for="availability">Availabile for project</label>
+<input type="checkbox" name="availability" id="Availabile" value="yes">
+<label for="Availabile">Yes</label>
+<input type="checkbox" name="availability" id="Not Availabile" value="No">
+<label for="Not Availabile">No</label>
+<br><br>
+
+<label for="bio">Bio/Comment</label>
+<textarea id="bio" cols="30" rows="3"></textarea>
+
+ .form-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #4facfe;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Developer Registration</h2>
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter full name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number">
+
+        <label>Specialization</label>
+        <select required>
+            <option value="">Select specialization</option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>Full Stack Developer</option>
+            <option>Mobile App Developer</option>
+        </select>
+
+        <label>Skills</label>
+        <textarea rows="3" placeholder="List your skills"></textarea>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+
+
+</body>
+</html>
