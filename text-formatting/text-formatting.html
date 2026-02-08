@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Learning Page</title>
+
+<style>
+
+/* ===== PAGE STYLING ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0f2fe, #ffffff);
+    margin: 30px;
+    line-height: 1.6;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+    text-align: center;
+    color: #1e40af;
+}
+
+h2 {
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+}
+
+/* ===== Visible Comment Styling ===== */
+.visible-comment {
+    background: #fef9c3;
+    border-left: 6px solid #facc15;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* ===== Other Elements Styling ===== */
+blockquote {
+    background: #ecfdf5;
+    border-left: 6px solid #16a34a;
+    padding: 12px;
+    font-style: italic;
+}
+
+dl {
+    background: #f8fafc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+dt {
+    font-weight: bold;
+    color: #0f172a;
+}
+
+code {
+    background: #e5e7eb;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+mark {
+    background: #fde68a;
+}
+
+del {
+    color: red;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>HTML Text & Semantic Elements</h1>
+
+<!-- This is a hidden HTML comment.
+     It will NOT appear on the webpage.
+     Students can only see it in the source code. -->
+
+<div class="visible-comment">
+Visible Comment: The yellow boxes on this page are created using CSS.
+They help students understand the purpose of each section.
+</div>
+
+<section>
+<h2>1. Text Formatting</h2>
+
+<p><b>Bold</b> text is used in advertisements.</p>
+<p><strong>Strong</strong> text shows important warnings.</p>
+<p><i>Italic</i> text is used for book titles.</p>
+<p><em>Emphasized</em> text adds stress in speech.</p>
+<p><mark>Highlighted</mark> text shows exam keywords.</p>
+<p>H<sub>2</sub>O (Chemistry example).</p>
+<p>10<sup>2</sup> = 100 (Math example).</p>
+<p><del>$150</del> $100 (Online shop discount).</p>
+
+<div class="visible-comment">
+Explanation: Text formatting elements improve readability and meaning.
+Some tags like &lt;strong&gt; have semantic importance.
+</div>
+
+</section>
+
+<section>
+<h2>2. Character Entities</h2>
+
+<p>Less than: &lt;</p>
+<p>Greater than: &gt;</p>
+<p>Copyright: &copy; 2026</p>
+<p>Ampersand: AT&amp;T</p>
+
+<div class="visible-comment">
+Explanation: Character entities allow us to display reserved symbols
+that HTML normally uses for coding.
+</div>
+
+</section>
+
+<section>
+<h2>3. Description List</h2>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Structures the content of a website.</dd>
+
+    <dt>CSS</dt>
+    <dd>Styles and designs the website layout.</dd>
+
+    <dt>JavaScript</dt>
+    <dd>Adds interactivity and dynamic behavior.</dd>
+</dl>
+
+<div class="visible-comment">
+Explanation: 
+&lt;dl&gt; creates the description list,
+&lt;dt&gt; defines the term,
+&lt;dd&gt; describes the term.
+Used in glossaries and FAQs.
+</div>
+
+</section>
+
+<section>
+<h2>4. Blockquote</h2>
+
+<blockquote>
+"Education is the most powerful weapon which you can use to change the world."
+</blockquote>
+
+<div class="visible-comment">
+Explanation: The &lt;blockquote&gt; element is used for long quotations 
+from books, articles, or famous people.
+</div>
+
+</section>
+
+</div>
+
+</body>
+</html>
